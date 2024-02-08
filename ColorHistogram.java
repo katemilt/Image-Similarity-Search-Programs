@@ -7,12 +7,14 @@ public class ColorHistogram {
 
     // Instance variables
     private int[] colorHisto;
+    private int d;
     
     public ColorHistogram(int d) {
         // Constructor that constructs ColorHistogram instance for d-bit image
         // Number of bins in the histogram will be N=2^(D*3)
+        this.d = d;
         int numBins = (int) Math.pow(2, (d*3));
-        colorHisto = new int[numBins];
+        this.colorHisto = new int[numBins];
     }
 
     public ColorHistogram(String filename) {
@@ -24,14 +26,25 @@ public class ColorHistogram {
         // Index of histogram bin with color [R',G',B']: (R' << (2 * D)) + (G' << D) + B)
         image.reduceColor(d);
 
+        for(int i = 0; i < image.getWidth(); i++) {
+            for(int j = 0; j < image.getHeight(); j++) {
+                int [] pixel = image.getPixel(i, j);
+
+                int histoIndex = (pixel[0] << (2 * d)) + (pixel[1] << d) + pixel[2];
+
+                colorHisto[histoIndex]++;
+            }
+        }
     }
 
     public double[] getHistogram() {
         // Returns the normalized histogram of the image
+        // Normalize h such that the values of all bins sum to 1.0
     }
 
     public double compare(ColorHistogram hist) {
         // Returns the intersection between two histograms
+        // Intersection can be computed as: sum over I(min(H1(I), H2(I)))
         double intersection = 0;
         for (int i = 0; i < colorHisto.length; i++) {
             intersection += Math.min(colorHisto[i], hist.colorHisto[i]);
