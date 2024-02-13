@@ -40,6 +40,24 @@ public class ColorHistogram {
     public double[] getHistogram() {
         // Returns the normalized histogram of the image
         // Normalize h such that the values of all bins sum to 1.0
+        int max = colorHisto[0];
+        for(int i = 0; i < colorHisto.length; i++) {
+            if(colorHisto[i] > max) {
+                max = colorHisto[i];
+            }
+        }
+        // If == 0 then histogram is empty/null
+        if(max == 0) {
+            return null;
+        }
+        double [] normalizedHisto = new double[colorHisto.length];
+        // Ensure all bins are summed to 1.0
+        double normFactor = 1.0 / max;
+        for(int i = 0; i < colorHisto.length; i++) {
+            // Calculate all values of normalized histogram using normFactor
+            normalizedHisto[i] = normFactor * colorHisto[i];
+        }
+        return normalizedHisto;
     }
 
     public double compare(ColorHistogram hist) {
