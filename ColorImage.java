@@ -8,6 +8,7 @@
 import java.awt.image.*;
 import java.io.*;
 import javax.imageio.*;
+import javax.imageio.stream.ImageInputStream;
 
 public class ColorImage {
 
@@ -19,17 +20,37 @@ public class ColorImage {
     
     public ColorImage(String filename) {
         // Constructor that creates an image from a jpg file
-        BufferedImage image = null;
-        try {
-            image = ImageIO.read(new File(filename));
-            // determine width, height, and depth
-            this.width = image.getWidth();
-            this.height = image.getHeight();
-            ColorModel colorModel = image.getColorModel();
-            int pixelSize = colorModel.getPixelSize();
-            this.depth = pixelSize;
+        // try {
+        //     image = ImageIO.read(new File(filename));
+        //     if (image == null) {
+        //         throw new IOException("Failed to read image file: " + filename);
+        //     }
+        //     // determine width, height, and depth
+        //     width = image.getWidth();
+        //     height = image.getHeight();
+        //     ColorModel colorModel = image.getColorModel();
+        //     int pixelSize = colorModel.getPixelSize();
+        //     depth = pixelSize;
 
-        } catch(IOException e) {
+        // } catch(IOException e) {
+        // }
+        //BufferedImage image = null;
+        try {
+            File file = new File(filename);
+            ImageInputStream iis = ImageIO.createImageInputStream(file);
+            if (iis != null) {
+                image = ImageIO.read(iis);
+                // Determine width, height, and depth
+                width = image.getWidth();
+                height = image.getHeight();
+                ColorModel colorModel = image.getColorModel();
+                int pixelSize = colorModel.getPixelSize();
+                depth = pixelSize;
+            } else {
+                System.out.println("Failed to create ImageInputStream.");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
