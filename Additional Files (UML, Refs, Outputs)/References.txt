@@ -1,0 +1,13 @@
+References
+
+1. Sinha, N. (2022, May 20). Sort Map by Value in Java. Scaler Topics. https://www.scaler.com/topics/sort-map-by-value-in-java/
+
+2. java - Round a double to 2 decimal places. (n.d.). Stack Overflow. https://stackoverflow.com/questions/2808535/round-a-double-to-2-decimal-places
+
+‌3. setRGB() in java. (n.d.). Stack Overflow. Retrieved February 18, 2024, from https://stackoverflow.com/questions/11951646/setrgb-in-java
+
+‌4. Isolating Red/Green/Blue Channel in Java BufferedImage. (n.d.). Stack Overflow. Retrieved February 18, 2024, from https://stackoverflow.com/questions/16698372/isolating-red-green-blue-channel-in-java-bufferedimage
+
+‌5. Get bits per pixel of a BufferedImage. (n.d.). Stack Overflow. Retrieved February 18, 2024, from https://stackoverflow.com/questions/41783414/get-bits-per-pixel-of-a-bufferedimage
+
+‌

@@ -1,0 +1,111 @@
+5 most similar images to queryImages/q00.jpg:
+1. 1144.jpg.txt -> Similarity is 100%
+2. 3806.jpg.txt -> Similarity is 70.75%
+3. 3714.jpg.txt -> Similarity is 66.84%
+4. 3756.jpg.txt -> Similarity is 66.2%
+5. 2462.jpg.txt -> Similarity is 64.91%
+
+5 most similar images to queryImages/q01.jpg:
+1. 3588.jpg.txt -> Similarity is 57.04%
+2. 2536.jpg.txt -> Similarity is 56.13%
+3. 3553.jpg.txt -> Similarity is 53.66%
+4. 1875.jpg.txt -> Similarity is 52.83%
+5. 2592.jpg.txt -> Similarity is 50.5%
+
+5 most similar images to queryImages/q02.jpg:
+1. 1091.jpg.txt -> Similarity is 65.44%
+2. 3005.jpg.txt -> Similarity is 64.26%
+3. 850.jpg.txt -> Similarity is 62.93%
+4. 3728.jpg.txt -> Similarity is 62.42%
+5. 1090.jpg.txt -> Similarity is 62.36%
+
+5 most similar images to queryImages/q03.jpg:
+1. 1255.jpg.txt -> Similarity is 54.87%
+2. 3532.jpg.txt -> Similarity is 54.21%
+3. 4507.jpg.txt -> Similarity is 53.84%
+4. 692.jpg.txt -> Similarity is 53.7%
+5. 4737.jpg.txt -> Similarity is 53.15%
+
+5 most similar images to queryImages/q04.jpg:
+1. 1799.jpg.txt -> Similarity is 84.65%
+2. 848.jpg.txt -> Similarity is 49.34%
+3. 4261.jpg.txt -> Similarity is 48.91%
+4. 1800.jpg.txt -> Similarity is 47.14%
+5. 1937.jpg.txt -> Similarity is 46.81%
+
+5 most similar images to queryImages/q05.jpg:
+1. 2223.jpg.txt -> Similarity is 61.44%
+2. 3091.jpg.txt -> Similarity is 60.01%
+3. 2550.jpg.txt -> Similarity is 53.04%
+4. 2883.jpg.txt -> Similarity is 52.88%
+5. 2901.jpg.txt -> Similarity is 52.3%
+
+5 most similar images to queryImages/q06.jpg:
+1. 2278.jpg.txt -> Similarity is 77.59%
+2. 2224.jpg.txt -> Similarity is 71.67%
+3. 1108.jpg.txt -> Similarity is 71.27%
+4. 1917.jpg.txt -> Similarity is 69.77%
+5. 3806.jpg.txt -> Similarity is 69.47%
+
+5 most similar images to queryImages/q07.jpg:
+1. 2377.jpg.txt -> Similarity is 100%
+2. 2379.jpg.txt -> Similarity is 76.7%
+3. 2079.jpg.txt -> Similarity is 63.97%
+4. 1653.jpg.txt -> Similarity is 63.41%
+5. 1896.jpg.txt -> Similarity is 62.22%
+
+5 most similar images to queryImages/q08.jpg:
+1. 2587.jpg.txt -> Similarity is 72.32%
+2. 1837.jpg.txt -> Similarity is 70.09%
+3. 2586.jpg.txt -> Similarity is 67.14%
+4. 1515.jpg.txt -> Similarity is 66.91%
+5. 1217.jpg.txt -> Similarity is 66.8%
+
+5 most similar images to queryImages/q09.jpg:
+1. 2839.jpg.txt -> Similarity is 79.02%
+2. 3414.jpg.txt -> Similarity is 50.9%
+3. 2617.jpg.txt -> Similarity is 45.11%
+4. 4363.jpg.txt -> Similarity is 42.43%
+5. 4816.jpg.txt -> Similarity is 38.47%
+
+5 most similar images to queryImages/q10.jpg:
+1. 2976.jpg.txt -> Similarity is 74.48%
+2. 2971.jpg.txt -> Similarity is 66.02%
+3. 3108.jpg.txt -> Similarity is 64.43%
+4. 2194.jpg.txt -> Similarity is 64.13%
+5. 4118.jpg.txt -> Similarity is 63.43%
+
+5 most similar images to queryImages/q11.jpg:
+1. 3017.jpg.txt -> Similarity is 61.1%
+2. 3660.jpg.txt -> Similarity is 57.58%
+3. 2411.jpg.txt -> Similarity is 57%
+4. 1010.jpg.txt -> Similarity is 55.58%
+5. 2067.jpg.txt -> Similarity is 55.36%
+
+5 most similar images to queryImages/q12.jpg:
+1. 3135.jpg.txt -> Similarity is 100%
+2. 3133.jpg.txt -> Similarity is 64.18%
+3. 2447.jpg.txt -> Similarity is 57.34%
+4. 4429.jpg.txt -> Similarity is 54.33%
+5. 2964.jpg.txt -> Similarity is 51.23%
+
+5 most similar images to queryImages/q13.jpg:
+1. 3225.jpg.txt -> Similarity is 100%
+2. 2083.jpg.txt -> Similarity is 49.49%
+3. 2082.jpg.txt -> Similarity is 49.45%
+4. 2078.jpg.txt -> Similarity is 48.9%
+5. 2607.jpg.txt -> Similarity is 47.24%
+
+5 most similar images to queryImages/q14.jpg:
+1. 2193.jpg.txt -> Similarity is 44.63%
+2. 3108.jpg.txt -> Similarity is 38.06%
+3. 3318.jpg.txt -> Similarity is 37.97%
+4. 4028.jpg.txt -> Similarity is 37.12%
+5. 3085.jpg.txt -> Similarity is 37.05%
+
+5 most similar images to queryImages/q15.jpg:
+1. 4756.jpg.txt -> Similarity is 73.75%
+2. 2462.jpg.txt -> Similarity is 72.37%
+3. 3756.jpg.txt -> Similarity is 69.71%
+4. 908.jpg.txt -> Similarity is 69.37%
+5. 3675.jpg.txt -> Similarity is 69.24%

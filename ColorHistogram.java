@@ -7,8 +7,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.Math;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ColorHistogram {
 
@@ -29,17 +27,17 @@ public class ColorHistogram {
 
     public ColorHistogram(String filename) {
         // Constructor that constructs ColorHistogram from text file
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+        try (BufferedReader inputFile = new BufferedReader(new FileReader(filename))) {
             String line;
             int lineNumber = 0;
-            while ((line = br.readLine()) != null) {
+            while ((line = inputFile.readLine()) != null) {
                 if (lineNumber == 0) {
-                    // Parse the first line to get the maximum frequency
+                    // Parse first line to get max frequency
                     int max = Integer.parseInt(line.trim());
-                    // Initialize the colorHisto array with the correct size
+                    // Initialize array with correct size
                     colorHisto = new int[max];
                 } else {
-                    // Parse histogram data from subsequent lines
+                    // Parse remainder of file
                     String[] values = line.trim().split("\\s+");
                     for (int i = 0; i < values.length; i++) {
                         colorHisto[i] = Integer.parseInt(values[i]);
@@ -56,13 +54,11 @@ public class ColorHistogram {
         // Associates an image with a histogram instance
         // Index of histogram bin with color [R',G',B']: (R' << (2 * D)) + (G' << D) + B)
         image.reduceColor(d);
-
         for(int i = 0; i < image.getWidth(); i++) {
             for(int j = 0; j < image.getHeight(); j++) {
                 int [] pixel = image.getPixel(i, j);
-
+                // Use given formula to calculate index
                 int histoIndex = (pixel[0] << (2 * d)) + (pixel[1] << d) + pixel[2];
-
                 colorHisto[histoIndex]++;
             }
         }
@@ -71,51 +67,44 @@ public class ColorHistogram {
     public double[] getHistogram() {
         // Returns the normalized histogram of the image
         // Normalize h such that the values of all bins sum to 1.0
-        int max = colorHisto[0];
-        for (int i = 0; i < colorHisto.length; i++) {
-            if (colorHisto[i] > max) 
-                max = colorHisto[i];
-        }
-        // If == 0 then histogram is empty/null
-        if (max == 0)
-            System.out.println("AH");
-    
         double[] normalizedHisto = new double[colorHisto.length];
-        // Ensure all bins are summed to 1.0
-        double normFactor = 1.0 / max;
-        for (int i = 0; i < colorHisto.length; i++) {
-            // Calculate all values of normalized histogram using normFactor
-            normalizedHisto[i] = normFactor * colorHisto[i];
+        int sum = 0;
+
+        for(int i = 0; i < colorHisto.length; i++) {
+            sum += colorHisto[i];
         }
+        // Ensure all bins are summed to 1.0
+        for(int i = 0; i < colorHisto.length; i++) {
+            normalizedHisto[i] = (double) colorHisto[i] / sum;
+        }
+        // Return the normalized version of colorHisto
         return normalizedHisto;
     }
 
     public double compare(ColorHistogram hist) {
         // Returns the intersection between two histograms
         // Intersection can be computed as: sum over I(min(H1(I), H2(I)))
+        // Normalize both the query image histogram and the dataset histogram
         double[] hist1 = this.getHistogram();
         double[] hist2 = hist.getHistogram();
         double intersection = 0;
+        // Calculate the total intersection
         for (int i = 0; i < hist1.length; i++) {
             intersection += Math.min(hist1[i], hist2[i]);
         }
-        double maxSimilarity = hist1.length; // Maximum possible similarity value
-        return intersection / maxSimilarity;
-        //return intersection;
 
-        // double intersection = 0;
-        // for (int i = 0; i < colorHisto.length; i++) {
-        //     intersection += Math.min(colorHisto[i], hist.colorHisto[i]);
-        // }
-        // return intersection;
+        return intersection;
     }
 
     public void saveColorHistogram (String filename) {
         // Saves the histogram into a text file
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(filename+".txt"))) {
-            for (int value : colorHisto) {
-                bw.write(Integer.toString(value));
-                bw.newLine(); // Add a new line after each value
+        try (BufferedWriter outputFile = new BufferedWriter(new FileWriter(filename+".txt"))) {
+            for (int i = 0; i < colorHisto.length; i++) {
+                outputFile.write(Integer.toString(colorHisto[i]));
+                // Add a space after each value
+                if (i < colorHisto.length - 1) {
+                    outputFile.write(" ");
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();

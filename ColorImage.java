@@ -20,23 +20,9 @@ public class ColorImage {
     
     public ColorImage(String filename) {
         // Constructor that creates an image from a jpg file
-        // try {
-        //     image = ImageIO.read(new File(filename));
-        //     if (image == null) {
-        //         throw new IOException("Failed to read image file: " + filename);
-        //     }
-        //     // determine width, height, and depth
-        //     width = image.getWidth();
-        //     height = image.getHeight();
-        //     ColorModel colorModel = image.getColorModel();
-        //     int pixelSize = colorModel.getPixelSize();
-        //     depth = pixelSize;
-
-        // } catch(IOException e) {
-        // }
-        //BufferedImage image = null;
         try {
             File file = new File(filename);
+            // Having issues with just using imageIO so adding in imageinputstream
             ImageInputStream iis = ImageIO.createImageInputStream(file);
             if (iis != null) {
                 image = ImageIO.read(iis);
