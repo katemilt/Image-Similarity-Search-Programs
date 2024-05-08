@@ -1,0 +1,111 @@
+Top 5 images similar to the image: q00.jpg
+1. Filename: imageDataset2_15_20\1144.jpg, Similarity: 1.000000
+2. Filename: imageDataset2_15_20\3806.jpg, Similarity: 0.704005
+3. Filename: imageDataset2_15_20\3756.jpg, Similarity: 0.660608
+4. Filename: imageDataset2_15_20\3714.jpg, Similarity: 0.659687
+5. Filename: imageDataset2_15_20\3668.jpg, Similarity: 0.643304
+
+Top 5 images similar to the image: q01.jpg
+1. Filename: imageDataset2_15_20\3588.jpg, Similarity: 0.572014
+2. Filename: imageDataset2_15_20\2536.jpg, Similarity: 0.560521
+3. Filename: imageDataset2_15_20\3553.jpg, Similarity: 0.536244
+4. Filename: imageDataset2_15_20\1875.jpg, Similarity: 0.528912
+5. Filename: imageDataset2_15_20\2592.jpg, Similarity: 0.504034
+
+Top 5 images similar to the image: q02.jpg
+1. Filename: imageDataset2_15_20\1091.jpg, Similarity: 0.652512
+2. Filename: imageDataset2_15_20\3005.jpg, Similarity: 0.645561
+3. Filename: imageDataset2_15_20\3728.jpg, Similarity: 0.630909
+4. Filename: imageDataset2_15_20\850.jpg, Similarity: 0.627187
+5. Filename: imageDataset2_15_20\1090.jpg, Similarity: 0.623900
+
+Top 5 images similar to the image: q03.jpg
+1. Filename: imageDataset2_15_20\1255.jpg, Similarity: 0.547778
+2. Filename: imageDataset2_15_20\3532.jpg, Similarity: 0.543148
+3. Filename: imageDataset2_15_20\4507.jpg, Similarity: 0.541244
+4. Filename: imageDataset2_15_20\692.jpg, Similarity: 0.538061
+5. Filename: imageDataset2_15_20\4737.jpg, Similarity: 0.532627
+
+Top 5 images similar to the image: q04.jpg
+1. Filename: imageDataset2_15_20\1799.jpg, Similarity: 0.845758
+2. Filename: imageDataset2_15_20\848.jpg, Similarity: 0.493999
+3. Filename: imageDataset2_15_20\4261.jpg, Similarity: 0.487645
+4. Filename: imageDataset2_15_20\1800.jpg, Similarity: 0.473571
+5. Filename: imageDataset2_15_20\1937.jpg, Similarity: 0.468380
+
+Top 5 images similar to the image: q05.jpg
+1. Filename: imageDataset2_15_20\2223.jpg, Similarity: 0.615550
+2. Filename: imageDataset2_15_20\3091.jpg, Similarity: 0.600503
+3. Filename: imageDataset2_15_20\2550.jpg, Similarity: 0.530243
+4. Filename: imageDataset2_15_20\2883.jpg, Similarity: 0.524861
+5. Filename: imageDataset2_15_20\2901.jpg, Similarity: 0.524520
+
+Top 5 images similar to the image: q06.jpg
+1. Filename: imageDataset2_15_20\2278.jpg, Similarity: 0.775961
+2. Filename: imageDataset2_15_20\2224.jpg, Similarity: 0.718102
+3. Filename: imageDataset2_15_20\1108.jpg, Similarity: 0.713339
+4. Filename: imageDataset2_15_20\1917.jpg, Similarity: 0.694439
+5. Filename: imageDataset2_15_20\3806.jpg, Similarity: 0.693270
+
+Top 5 images similar to the image: q07.jpg
+1. Filename: imageDataset2_15_20\2377.jpg, Similarity: 1.000000
+2. Filename: imageDataset2_15_20\2379.jpg, Similarity: 0.766250
+3. Filename: imageDataset2_15_20\2079.jpg, Similarity: 0.645527
+4. Filename: imageDataset2_15_20\1653.jpg, Similarity: 0.636800
+5. Filename: imageDataset2_15_20\1896.jpg, Similarity: 0.623883
+
+Top 5 images similar to the image: q08.jpg
+1. Filename: imageDataset2_15_20\2587.jpg, Similarity: 0.723275
+2. Filename: imageDataset2_15_20\1837.jpg, Similarity: 0.696094
+3. Filename: imageDataset2_15_20\1515.jpg, Similarity: 0.674983
+4. Filename: imageDataset2_15_20\2586.jpg, Similarity: 0.671620
+5. Filename: imageDataset2_15_20\1217.jpg, Similarity: 0.668900
+
+Top 5 images similar to the image: q09.jpg
+1. Filename: imageDataset2_15_20\2839.jpg, Similarity: 0.789421
+2. Filename: imageDataset2_15_20\3414.jpg, Similarity: 0.510637
+3. Filename: imageDataset2_15_20\2617.jpg, Similarity: 0.455486
+4. Filename: imageDataset2_15_20\4363.jpg, Similarity: 0.425480
+5. Filename: imageDataset2_15_20\4816.jpg, Similarity: 0.389225
+
+Top 5 images similar to the image: q10.jpg
+1. Filename: imageDataset2_15_20\2976.jpg, Similarity: 0.746100
+2. Filename: imageDataset2_15_20\2971.jpg, Similarity: 0.661615
+3. Filename: imageDataset2_15_20\3108.jpg, Similarity: 0.645937
+4. Filename: imageDataset2_15_20\2194.jpg, Similarity: 0.640156
+5. Filename: imageDataset2_15_20\4118.jpg, Similarity: 0.635654
+
+Top 5 images similar to the image: q11.jpg
+1. Filename: imageDataset2_15_20\3017.jpg, Similarity: 0.614583
+2. Filename: imageDataset2_15_20\3660.jpg, Similarity: 0.575666
+3. Filename: imageDataset2_15_20\2411.jpg, Similarity: 0.569954
+4. Filename: imageDataset2_15_20\1010.jpg, Similarity: 0.557459
+5. Filename: imageDataset2_15_20\2067.jpg, Similarity: 0.557147
+
+Top 5 images similar to the image: q12.jpg
+1. Filename: imageDataset2_15_20\3135.jpg, Similarity: 1.000000
+2. Filename: imageDataset2_15_20\3133.jpg, Similarity: 0.644352
+3. Filename: imageDataset2_15_20\2447.jpg, Similarity: 0.572095
+4. Filename: imageDataset2_15_20\4429.jpg, Similarity: 0.542517
+5. Filename: imageDataset2_15_20\2964.jpg, Similarity: 0.509583
+
+Top 5 images similar to the image: q13.jpg
+1. Filename: imageDataset2_15_20\3225.jpg, Similarity: 1.000000
+2. Filename: imageDataset2_15_20\2082.jpg, Similarity: 0.501279
+3. Filename: imageDataset2_15_20\2083.jpg, Similarity: 0.497269
+4. Filename: imageDataset2_15_20\2078.jpg, Similarity: 0.491186
+5. Filename: imageDataset2_15_20\3051.jpg, Similarity: 0.480972
+
+Top 5 images similar to the image: q14.jpg
+1. Filename: imageDataset2_15_20\2193.jpg, Similarity: 0.444931
+2. Filename: imageDataset2_15_20\3318.jpg, Similarity: 0.388333
+3. Filename: imageDataset2_15_20\3108.jpg, Similarity: 0.381522
+4. Filename: imageDataset2_15_20\3085.jpg, Similarity: 0.369554
+5. Filename: imageDataset2_15_20\4028.jpg, Similarity: 0.368773
+
+Top 5 images similar to the image: q15.jpg
+1. Filename: imageDataset2_15_20\4756.jpg, Similarity: 0.738194
+2. Filename: imageDataset2_15_20\2462.jpg, Similarity: 0.722870
+3. Filename: imageDataset2_15_20\3756.jpg, Similarity: 0.698889
+4. Filename: imageDataset2_15_20\2555.jpg, Similarity: 0.697442
+5. Filename: imageDataset2_15_20\908.jpg, Similarity: 0.694387

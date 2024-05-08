@@ -1,0 +1,47 @@
+The top 5 most similar images (in order from most to least) to queryImages/q00.jpg.txt are:
+(1144.jpg.txt 3806.jpg.txt 3714.jpg.txt 3756.jpg.txt 2462.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q01.jpg.txt are:
+(3588.jpg.txt 2536.jpg.txt 3553.jpg.txt 1875.jpg.txt 2592.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q02.jpg.txt are:
+(1091.jpg.txt 3005.jpg.txt 850.jpg.txt 3728.jpg.txt 1090.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q03.jpg.txt are:
+(1255.jpg.txt 3532.jpg.txt 4507.jpg.txt 692.jpg.txt 4737.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q04.jpg.txt are:
+(1799.jpg.txt 848.jpg.txt 4261.jpg.txt 1800.jpg.txt 1937.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q05.jpg.txt are:
+(2223.jpg.txt 3091.jpg.txt 2550.jpg.txt 2883.jpg.txt 2901.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q06.jpg.txt are:
+(2278.jpg.txt 2224.jpg.txt 1108.jpg.txt 1917.jpg.txt 3806.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q07.jpg.txt are:
+(2377.jpg.txt 2379.jpg.txt 2079.jpg.txt 1653.jpg.txt 1896.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q08.jpg.txt are:
+(2587.jpg.txt 1837.jpg.txt 2586.jpg.txt 1515.jpg.txt 1217.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q09.jpg.txt are:
+(2839.jpg.txt 3414.jpg.txt 2617.jpg.txt 4363.jpg.txt 4816.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q10.jpg.txt are:
+(2976.jpg.txt 2971.jpg.txt 3108.jpg.txt 2194.jpg.txt 4118.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q11.jpg.txt are:
+(3017.jpg.txt 3660.jpg.txt 2411.jpg.txt 1010.jpg.txt 2067.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q12.jpg.txt are:
+(3135.jpg.txt 3133.jpg.txt 2447.jpg.txt 4429.jpg.txt 2964.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q13.jpg.txt are:
+(3225.jpg.txt 2083.jpg.txt 2082.jpg.txt 2078.jpg.txt 2607.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q14.jpg.txt are:
+(2193.jpg.txt 3108.jpg.txt 3318.jpg.txt 4028.jpg.txt 3085.jpg.txt)
+
+The top 5 most similar images (in order from most to least) to queryImages/q15.jpg.txt are:
+(4756.jpg.txt 2462.jpg.txt 3756.jpg.txt 908.jpg.txt 2555.jpg.txt)

@@ -34,7 +34,7 @@ public class SimilaritySearch {
         queryHistogram.setImage(queryImage);
 
         // Uncomment to view image conversion to histogram
-        // queryHistogram.saveColorHistogram(queryImageFilename+".txt");
+        queryHistogram.saveColorHistogram(queryImageFilename);
 
         // Load and process histograms from the dataset
         File imageDataset = new File(datasetDirectory);

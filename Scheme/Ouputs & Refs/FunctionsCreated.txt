@@ -1,0 +1,28 @@
+I have created the following functions in my Scheme code:
+
+;;Constructs a histogram list from an inputted histogram txt file
+(define (readHistogram filename)
+
+;; Returns the normalized histogram, such that the values of all bins sum to 1.0
+(define (normalizeHistogram hist)
+
+;; Returns the intersection between two histograms
+(define (getIntersection hist1 hist2)
+
+;; Checks if a file is a txt file or not (ends with ".txt")
+(define (isTxtFile filename)
+
+;; Sorts all of the intersection values in descending order
+(define (sortIntersections intersectionVals)
+
+;; Retrieves all txt files from the image dataset
+;; Returns the filename and its histogram
+(define (getDatasetHistograms dataset)
+
+;; Main function
+;; Returns the top 5 most similar images to the query histogram
+(define (similaritySearch queryFilename dataset)
+
+;; For running all query files at once
+(define queryFilenames '("queryImages/q00.jpg.txt" ... "queryImages/q15.jpg.txt"))
+

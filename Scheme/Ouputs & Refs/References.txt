@@ -1,0 +1,8 @@
+References:
+
+1. Reading from file, using Scheme. (n.d.). Stack Overflow. Retrieved March 10, 2024, from https://stackoverflow.com/questions/16335454/reading-from-file-using-scheme
+2. Input and Output. (n.d.). Www.scheme.com. Retrieved March 10, 2024, from https://www.scheme.com/tspl3/io.html
+3. What is the difference between map and apply in scheme? (n.d.). Stack Overflow. Retrieved March 10, 2024, from https://stackoverflow.com/questions/27488723/what-is-the-difference-between-map-and-apply-in-scheme
+4. Is there a “list all files” procedure in scheme? (n.d.). Stack Overflow. Retrieved March 10, 2024, from https://stackoverflow.com/questions/62822997/is-there-a-list-all-files-procedure-in-scheme
+5. 4.10 Pairs and Lists. (n.d.). Docs.racket-Lang.org. Retrieved March 10, 2024, from https://docs.racket-lang.org/reference/pairs.html
+
